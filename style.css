@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    height: 100svh;
+    background-color: #000836;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    color: rgb(210, 210, 210);
+    margin: 16px;
+    font-size: 1.8rem;
+    font-family: 'Press Start 2P', monospace;
+    margin-left: 8%;
+    margin-top: 5vh;
+    text-decoration: underline;
+}
+/* Main */
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+/* Grid Section */
+.wrapper{
+    border:inset 10px rgb(129, 128, 128);
+}
+.grid-container{
+    background-color: rgb(210, 210, 210);
+    width: 600px;
+    height: 600px;
+}
+/*  */
+
+/* Button area */
+.side-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+}
+/* Button styles */
+button{
+    width: 100px;
+    margin: 16px;
+    padding:8px;
+    background-color: rgb(210, 210, 210);
+    border: 1px solid;
+    border-radius:5px;
+}
+button:hover{
+    background-color:rgb(186, 186, 186) ;
+}
+/* When the button is clicked */
+button:disabled{
+    color: rgb(226, 226, 226);
+    background-color:rgb(129, 128, 128) ;
+    border: rgb(129, 128, 128);
+}
+
+/* Toggle border from button */
+.grid-div-border{
+    border: .5px solid rgb(160, 160, 160);
+}
+
+
+
+/* Footer Section*/
+ .author > a{
+    text-decoration: none;
+    color:white;
+    margin-left: .5%;
+ }
+ .author{
+    color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 85, 85);
+    height: 5%;
+}
